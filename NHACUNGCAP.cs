@@ -11,13 +11,15 @@ namespace ShopOnline
         public string DiaChi { get; set; }
         public string SDT { get; set; }
         public string Email { get; set; }
-        public NHACUNGCAP(string MaNCC, string TenNCC, string DiaChi, string SDT, string Email)
+        public string NuocSX {get; set;}
+        public NHACUNGCAP(string MaNCC, string TenNCC, string DiaChi, string SDT, string Email, string NuocSX)
         {
             this.MaNCC = MaNCC;
             this.TenNCC = TenNCC;
             this.DiaChi = DiaChi;
             this.SDT = SDT;
             this.Email = Email;
+            this.NuocSX=NuocSX;
         }
     }
 }
