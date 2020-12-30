@@ -23,7 +23,6 @@ namespace ShopOnline
             this.ThuongHieu = ThuongHieu;
             this.NoiSanXuat = NoiSanXuat;
             this.Mau = Mau;
-            this.NhanVienQL = NhanVienQL;
             this.NhaCungCap = NhaCungCap;
         }
     }
