@@ -13,17 +13,16 @@ namespace ShopOnline
         public string ThuongHieu { get; set; }
         public string NoiSanXuat { get; set; }
         public string Mau { get; set; }
-        public NHACUNGCAP NhaCungCap { get; set; }
 
         public CHI_TIET_SP(SANPHAM SanPham, LOAI_SP LoaiSP, string ThuongHieu,string NoiSanXuat, string Mau
-            , NHACUNGCAP NhaCungCap)
+            )
         {
             this.SanPham = SanPham;
             this.LoaiSP = LoaiSP;
             this.ThuongHieu = ThuongHieu;
             this.NoiSanXuat = NoiSanXuat;
             this.Mau = Mau;
-            this.NhaCungCap = NhaCungCap;
+           
         }
     }
 }
