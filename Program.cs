@@ -51,8 +51,8 @@ namespace ShopOnline
         }
         public static void TaoDSNV()
         {
-            dsnv.Add(new NHANVIEN("nv01", dsShop[0], "Fuck Ngu", "Be De", "My Tho", "01010101", "qeqeqe", "1111",null ));
-            dsnv.Add(new NHANVIEN("nv02", dsShop[2], "Fuck Nguuuu", "Be De", "My Tho", "01010101", "qeqeqe", "1111",dsnv[0]));
+            dsnv.Add(new NHANVIEN("nv01", dsShop[0], "Fuck Ngu", "Be De", "My Tho", "01010101", "qeqeqe", "1111",null,null ));
+            dsnv.Add(new NHANVIEN("nv02", dsShop[2], "Fuck Nguuuu", "Be De", "My Tho", "01010101", "qeqeqe", "1111",dsnv[0],null));
 
         }
         public static void TinhTongTien()

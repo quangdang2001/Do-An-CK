@@ -11,7 +11,7 @@ namespace ShopOnline
         public string DiaChi { get; set; }
         public string SDT { get; set; }
         public string Email { get; set; }
-        public string NuocSX {get; set;}
+        public string NuocSX { get; set; }
         public NHACUNGCAP(string MaNCC, string TenNCC, string DiaChi, string SDT, string Email)
         {
             this.MaNCC = MaNCC;
@@ -19,7 +19,7 @@ namespace ShopOnline
             this.DiaChi = DiaChi;
             this.SDT = SDT;
             this.Email = Email;
-            this.NuocSX= NuocSX;
+            this.NuocSX = NuocSX;
         }
     }
 }

@@ -7,15 +7,15 @@ namespace ShopOnline
     public class SANPHAM
     {
         public string MaSP { get; set; }
-        public LOAI_SP LoaiSP { get; set; }
         public string TenSP { get; set; }
         public double DonGiaSP { get; set; }
-        public SANPHAM(string MaSP, LOAI_SP LoaiSP, string TenSP, string MaNVQL,double DonGiaSP, NHACUNGCAP NhaCungCap)
+        public CHI_TIET_SP ChiTietSP { get; set; }
+        public SANPHAM(string MaSP, string TenSP, double DonGiaSP,CHI_TIET_SP ChiTietSP)
         {
             this.MaSP = MaSP;
-            this.LoaiSP = LoaiSP;
             this.TenSP = TenSP;
             this.DonGiaSP = DonGiaSP;
+            this.ChiTietSP = ChiTietSP;
         }
     }
 }

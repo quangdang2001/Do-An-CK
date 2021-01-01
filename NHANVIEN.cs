@@ -17,8 +17,10 @@ namespace ShopOnline
         public string email { get; set; }
         public string NgayLamViec { get; set; }
         public NHANVIEN NguoiQL { get; set; }
+        public LOAI_SP Loai_sp { get; set; }
+
         public NHANVIEN (string MaNV, SHOP Shop, string TenNV, string GioiTinh, string DiaChi, string sdt, string email, string NgayLamViec
-            , NHANVIEN NguoiQL)
+            , NHANVIEN NguoiQL, LOAI_SP Loai_sp)
         {
             this.MaNV = MaNV;
             this.Shop = Shop;
@@ -29,6 +31,7 @@ namespace ShopOnline
             this.email = email;
             this.NgayLamViec = NgayLamViec;
             this.NguoiQL = NguoiQL;
+            this.Loai_sp = Loai_sp;
         }
     }
 }
